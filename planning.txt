@@ -1,0 +1,18 @@
+Doc to define requirements, plan, etc
+
+Goal: Create a public calendar of local non-professional theatre event dates. Not sure if I want to expand past this but starting with audition dates and production dates.
+
+Data: Auditions (start date, end date, contact info, sign-up site?); Shows (start date, end date, contact info, ticket page?)
+Sources: Eventually all local theatres
+    todo: should school theatres be included in this?
+    To start: McLean Community Players, Reston Community Players, Little Theatre of Alexandria, Workhouse Arts Center
+    Data will be scraped off individual websites, facebook pages or other social media (compare + dedup)
+Features: Website displaying dynamic calendar kept up to date with information posted on scraped websites.
+    Should have: Searchable calendar, event tags or grouping, notifications/email updates?
+
+
+
+1. Use MCP as test case to try and scrape event information
+    Will have to store data for X period of time? Website does not have straightforward archive and audition page doesn't contain previous info
+2. Set up database for storage
+3. Build data scrape pipline
